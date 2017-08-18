@@ -135,6 +135,18 @@ Route::get('/spark', function(\Illuminate\Http\Request $request){
 });
 
 
+Route::get('/loaderio-53811d5b169448791a6132843346eeef', function() {
+    echo '53811d5b169448791a6132843346eeef';
+});
+
+Route::get('/loaderio-53811d5b169448791a6132843346eeef.html'  , function() {
+    echo '53811d5b169448791a6132843346eeef';
+});
+
+Route::get('/loaderio-53811d5b169448791a6132843346eeef.txt'  , function() {
+    echo '53811d5b169448791a6132843346eeef';
+});
+
 Route::get('/bitpay/rate', function() {
     $client = new BitpayClient();
     $client->setAdapter(new BitpayCurlAdapter());
@@ -150,3 +162,4 @@ Route::get('/bitpay/rate', function() {
     $data = json_encode($response->getBody(), true);
     var_dump($data);
 });
+
