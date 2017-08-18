@@ -35,4 +35,8 @@ return [
         'secret' => env('STRIPE_SECRET'),
     ],
 
+    'loaderio'    =>    [
+        'key'   =>  '53811d5b169448791a6132843346eeef'
+    ],
+
 ];

@@ -124,10 +124,6 @@ return [
 
     'log_level' => env('APP_LOG_LEVEL', 'debug'),
 
-    //spark
-    'spark_key' => env (''),
-
-
     /*
     |--------------------------------------------------------------------------
     | Autoloaded Service Providers
@@ -187,6 +183,8 @@ return [
         PragmaRX\Google2FALaravel\ServiceProvider::class,
 
         Collective\Html\HtmlServiceProvider::class,
+
+        //Xanderyui\Calculator\CalculatorServiceProvider::class,
     ],
 
     /*
